@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative; 
+}
+
+.logout-button {
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.logout-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(217, 83, 79, 0.5);
+}
+
+.dashboard-title {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.dashboard-message {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+}
